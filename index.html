@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Proyecto de robótica SMART PARKING del Complejo Educativo Católico San Francisco.">
+
+    <title>SMART PARKING | Proyecto de Robótica</title>
+
+    <!-- Conexión con el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER: Logo y navegación -->
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">🌿</span>
+            <span>SMART<span class="logo-light">PARKING</span></span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="navMenu">
+            ☰
+        </button>
+
+        <nav class="nav" id="navMenu">
+            <a href="#inicio">Inicio</a>
+            <a href="#ventajas">Ventajas</a>
+            <a href="#elaboracion">Elaboración</a>
+            <a href="#integrantes">Integrantes</a>
+            <a href="#galeria">Galería</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO: Presentación principal -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="tag">PROYECTO ACADÉMICO DE ROBÓTICA · 2026</span>
+
+                <h1>
+                    SMART<br>
+                    <span>PARKING</span>
+                </h1>
+
+                <h2>Parqueadero Inteligente</h2>
+
+                <p>
+                    Tecnología, innovación y creatividad al servicio
+                    de la automatización. Una propuesta que demuestra
+                    cómo la robótica puede transformar los
+                    estacionamientos.
+                </p>
+
+                <a href="#elaboracion" class="btn">
+                    DESCUBRIR EL PROYECTO →
+                </a>
+            </div>
+
+            <div class="hero-card">
+                <div class="hero-symbol">🚘</div>
+                <h3>Estacionamiento inteligente</h3>
+                <p>Detección automática de vehículos mediante tecnología ultrasónica.</p>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Innovación tecnológica
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRODUCCIÓN -->
+        <section class="section introduction">
+            <span class="subtitle">NUESTRA PROPUESTA</span>
+            <h2>¿Qué es SMART PARKING?</h2>
+
+            <p>
+                SMART PARKING es un proyecto de robótica que consiste
+                en desarrollar un sistema capaz de detectar la presencia
+                de vehículos utilizando un sensor ultrasónico conectado
+                a una placa Arduino. Mediante luces LED, el sistema
+                proporciona señales visuales que permiten identificar
+                el estado del espacio de estacionamiento.
+            </p>
+        </section>
+
+        <!-- VENTAJAS -->
+        <section class="section advantages" id="ventajas">
+            <span class="subtitle">BENEFICIOS</span>
+            <h2>Ventajas del proyecto</h2>
+            <p class="section-description">
+                Nuestro proyecto ofrece diferentes beneficios
+                relacionados con la tecnología y la automatización.
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Automatización</h3>
+                    <p>
+                        Permite detectar vehículos mediante un
+                        sistema electrónico programado.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">💡</div>
+                    <h3>Señalización visual</h3>
+                    <p>
+                        Utiliza luces LED para comunicar el estado
+                        del estacionamiento.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">⏱️</div>
+                    <h3>Organización</h3>
+                    <p>
+                        Facilita la identificación de espacios
+                        disponibles y ocupados.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🌱</div>
+                    <h3>Innovación</h3>
+                    <p>
+                        Demuestra cómo la tecnología puede contribuir
+                        a mejorar actividades cotidianas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CÓMO SE ELABORÓ -->
+        <section class="section elaboration" id="elaboracion">
+            <span class="subtitle">PROCESO DE CONSTRUCCIÓN</span>
+            <h2>¿Cómo se elaboró?</h2>
+
+            <p class="section-description">
+                El parqueadero inteligente se desarrolló mediante
+                diferentes etapas de diseño, conexión y programación.
+            </p>
+
+            <div class="steps">
+
+                <article class="step">
+                    <span class="step-number">01</span>
+                    <h3>Planificación</h3>
+                    <p>
+                        Se identificó la necesidad de crear un sistema
+                        que pudiera detectar vehículos y comunicar
+                        visualmente el estado del estacionamiento.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">02</span>
+                    <h3>Selección de componentes</h3>
+                    <p>
+                        Se seleccionaron los materiales electrónicos:
+                        Arduino R1, protoboard, luces LED y sensor
+                        ultrasónico.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">03</span>
+                    <h3>Montaje del circuito</h3>
+                    <p>
+                        Se realizaron las conexiones entre los
+                        componentes utilizando la placa protoboard
+                        y los pines de Arduino.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">04</span>
+                    <h3>Programación</h3>
+                    <p>
+                        Se elaboró un programa para que Arduino
+                        recibiera las mediciones del sensor y
+                        controlara las señales luminosas.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">05</span>
+                    <h3>Pruebas y funcionamiento</h3>
+                    <p>
+                        Se realizaron pruebas para comprobar la
+                        detección de objetos y la respuesta de
+                        los indicadores LED.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- COMPONENTES -->
+        <section class="section components">
+            <span class="subtitle">MATERIALES UTILIZADOS</span>
+            <h2>Componentes electrónicos</h2>
+
+            <div class="cards">
+
+                <article class="card component-card">
+                    <div class="card-icon">🔌</div>
+                    <h3>Arduino R1</h3>
+                    <p>
+                        Es la unidad de control que procesa
+                        las instrucciones y coordina el sistema.
+                    </p>
+                </article>
+
+                <article class="card component-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Placa Protoboard</h3>
+                    <p>
+                        Permite realizar conexiones electrónicas
+                        sin necesidad de soldar los componentes.
+                    </p>
+                </article>
+
+                <article class="card component-card">
+                    <div class="card-icon">💡</div>
+                    <h3>Luces LED</h3>
+                    <p>
+                        Funcionan como indicadores luminosos
+                        del estado del parqueadero.
+                    </p>
+                </article>
+
+                <article class="card component-card">
+                    <div class="card-icon">📡</div>
+                    <h3>Sensor Ultrasónico</h3>
+                    <p>
+                        Utiliza ondas sonoras para medir distancias
+                        y detectar la presencia de vehículos.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section class="section objectives">
+            <span class="subtitle">PROPÓSITO ACADÉMICO</span>
+            <h2>Objetivos del proyecto</h2>
+
+            <div class="objective-box">
+                <h3>🎯 Objetivo general</h3>
+                <p>
+                    Diseñar y construir un sistema de parqueadero
+                    inteligente utilizando Arduino R1, una placa
+                    protoboard, luces LED y un sensor ultrasónico,
+                    con el propósito de detectar la presencia de
+                    vehículos y facilitar el control automatizado
+                    del estacionamiento.
+                </p>
+            </div>
+
+            <div class="objective-box">
+                <h3>📌 Objetivo específico</h3>
+                <p>
+                    Implementar un circuito electrónico programado
+                    que utilice un sensor ultrasónico para detectar
+                    vehículos y activar señales luminosas mediante
+                    LED, permitiendo indicar visualmente el estado
+                    del parqueadero y demostrar la aplicación de
+                    la robótica y la automatización en situaciones
+                    de la vida cotidiana.
+                </p>
+            </div>
+        </section>
+
+        <!-- INTEGRANTES -->
+        <section class="section team" id="integrantes">
+            <span class="subtitle">NUESTRO EQUIPO</span>
+            <h2>Integrantes del proyecto</h2>
+
+            <p class="section-description">
+                Un equipo de estudiantes unidos por la creatividad,
+                la colaboración y el interés por la tecnología.
+            </p>
+
+            <div class="team-grid">
+                <article class="member">
+                    <div class="member-icon">👨‍💻</div>
+                    <h3>Vladimir Alexander</h3>
+                    <p>Integrante del proyecto</p>
+                </article>
+
+                <article class="member">
+                    <div class="member-icon">👨‍💻</div>
+                    <h3>Adrián López</h3>
+                    <p>Integrante del proyecto</p>
+                </article>
+
+                <article class="member">
+                    <div class="member-icon">👨‍💻</div>
+                    <h3>José Brian</h3>
+                    <p>Integrante del proyecto</p>
+                </article>
+
+                <article class="member">
+                    <div class="member-icon">👨‍💻</div>
+                    <h3>Daniel Vásquez</h3>
+                    <p>Integrante del proyecto</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- GALERÍA -->
+        <section class="section gallery" id="galeria">
+            <span class="subtitle">EVIDENCIAS DEL TRABAJO</span>
+            <h2>Galería de fotografías</h2>
+
+            <p class="section-description">
+                Fotografías del proceso de construcción y desarrollo
+                de nuestro parqueadero inteligente.
+            </p>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="images/portada.jpg"
+                         alt="Presentación del proyecto de parqueadero inteligente">
+                    <figcaption>Proyecto SMART PARKING</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/circuito.jpg"
+                         alt="Circuito electrónico del parqueadero inteligente">
+                    <figcaption>Conexiones electrónicas</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/montaje.jpg"
+                         alt="Montaje de los componentes de robótica">
+                    <figcaption>Montaje del circuito</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/equipo.jpg"
+                         alt="Integrantes del equipo de robótica">
+                    <figcaption>Trabajo en equipo</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- IMPORTANCIA -->
+        <section class="section conclusion">
+            <span class="subtitle">REFLEXIÓN FINAL</span>
+            <h2>Importancia de la robótica</h2>
+            <p>
+                La robótica es importante porque permite desarrollar
+                soluciones tecnológicas a problemas de la vida diaria.
+                Este proyecto fortalece nuestros conocimientos sobre
+                electrónica, programación, automatización y trabajo
+                en equipo. Además, demuestra que mediante la creatividad
+                y la innovación podemos construir herramientas útiles
+                para la sociedad.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="footer">
+        <div class="footer-logo">🌿 SMART PARKING</div>
+
+        <h3>Complejo Educativo Católico San Francisco</h3>
+
+        <p>Docente: Lic. Carlos M. Galdámez</p>
+
+        <p class="motto">
+            “Inspirados por San Francisco, unimos nuestros talentos
+            para construir puentes y derribar muros.”
+        </p>
+
+        <p class="year">Año lectivo 2026</p>
+
+        <div class="footer-bottom">
+            Proyecto académico de Robótica · 2026
+        </div>
+    </footer>
+
+    <!-- Conexión con JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
